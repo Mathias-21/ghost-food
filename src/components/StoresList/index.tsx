@@ -12,6 +12,7 @@ export default function StoresList() {
           .map((store) => (
             <StoreCard
               key={store.id}
+              id={store.id}
               name={store.name}
               logoUrl={store.logoUrl}
               rating={store.rating}
@@ -27,6 +28,7 @@ export default function StoresList() {
           .map((store) => (
             <StoreCard
               key={store.id}
+              id={store.id}
               name={store.name}
               logoUrl={store.logoUrl}
               rating={store.rating}

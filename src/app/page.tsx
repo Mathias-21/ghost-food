@@ -6,7 +6,6 @@ import BackgoundDiaDasCriancas from '@/assets/images/background-dia-das-criancas
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import StoresList from '@/components/StoresList';
-import Footer from '@/components/Footer';
 import InputControlled from '@/components/form/Input';
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
       </Header>
       <Hero image={BackgoundDiaDasCriancas} />
       <StoresList />
-      <Footer />
     </div>
   );
 }
